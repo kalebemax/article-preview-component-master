@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', 'Arial', sans-serif;
+    font-size: 13px;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    box-shadow: 1px 1px 50px 3px rgba(0, 0, 0, 0.13);
+    margin-top: 60px;
+    width: 90vw;
+    height: 40vh;
+}
+
+#avatar {
+    order: -1;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+section {
+    background-color: white;
+    box-shadow: 1px 1px 50px 3px rgba(0, 0, 0, 0.13);
+    font-weight: 700;
+    width: 90vw;
+    height: 50vh;
+    padding: 20px;
+}
+
+nav {
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    margin-top: 15px;
+    margin-right: 150px;
+    font-size: 14px;
+}
+
+#info > p {
+    font-weight: 300;
+}
+
+#dropdown {
+    margin-left: -40px;
+    height: 30px;
+}
+
+#menu {
+    background-color: hsl(217, 19%, 35%);
+    width: 70vw;
+    height: auto;
+    padding: 10px;
+}
+
+#menu > p  {
+    color: hsl(212, 23%, 69%);
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: -30px;
+    margin-left: 50px;
+}
+
+#icon {
+    margin-bottom: 5px;
+}
+
+#iconf {
+    margin-left: 150px;
+}
+
+#icont {
+    margin-top: -33px;
+    margin-left: 195px;
+}
+
+#iconp {
+    margin-top: -33px;
+    margin-left: 240px;
+}
+ 
+section > p {
+    color: gray;
+    font-weight: 500;
+    font-size: medium;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 200px;
+        
+    }
+    
+    main {
+        display: flex;
+        flex-flow: row;
+    }
+
+    #img {
+        height: 300px;
+        width: 400px;
+        border-radius: 5px 0px 0px 5px;
+        box-shadow: 1px 1px 50px 3px rgba(0, 0, 0, 0.13);
+    }
+
+    section {
+        height: 300px;
+        width: 550px;
+        border-radius: 0px 5px 5px 0px; 
+        margin-top: 60px;
+    }
+
+    #menu {
+        width: 25vw;
+    }
+
+}
