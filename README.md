@@ -8,8 +8,8 @@ This is my solution to the [Article preview component challenge on Frontend Ment
 
 
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-dg4f7hQi_c)
+- Live Site URL: [GitHub](https://kalebemax.github.io/article-preview-component-master/)
 
 
 
